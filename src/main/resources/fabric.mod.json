@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Packet Size Doubler",
-  "description": "Mod for doubling allow package sizes",
+  "description": "Mod for doubling allowed package sizes",
   "authors": [
     "Sigmund Granaas Sandring"
   ],
@@ -23,11 +23,12 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "packetsizedoubler.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.12.12",
     "minecraft": "~1.18.2",
+    "fabric": "*",
     "java": ">=17"
   }
 }
