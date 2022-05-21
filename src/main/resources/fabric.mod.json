@@ -18,7 +18,9 @@
 
   "environment": "*",
   "entrypoints": {
-
+    "main": [
+      "com.sigmundgranaas.packetsizedoubler.PacketDoublerMod"
+    ]
   },
   "mixins": [
     "modid.mixins.json"
