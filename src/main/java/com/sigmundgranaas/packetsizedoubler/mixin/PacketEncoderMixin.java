@@ -11,5 +11,5 @@ public class PacketEncoderMixin {
     private int injected(int value) {
         return value * 10;
     }
-    
+
 }
